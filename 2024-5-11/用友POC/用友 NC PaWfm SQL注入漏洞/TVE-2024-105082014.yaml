@@ -19,12 +19,10 @@ info:
   classification:
     cve-id: TVE-2024-105081747
     cvss-score: 6.5
-    cwe-id: CWE-22
+    cwe-id: CWE-89
   metadata:
     date: 2024-03-13
     version: 用友NC系统
-    # max-request: 2
-    # verified: true
     fofa-query: icon_hash="1085941792" || app="用友-UFIDA-NC"
   tags: yonyou,sqli
 

@@ -1,0 +1,23 @@
+# Reference https://github.com/github/gitignore/blob/master/Go.gitignore
+# custom
+*.txt
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# OS General
+Thumbs.db
+.DS_Store
+
+# project
+*.cert
+*.key
+*.log
+
+# Develop tools
+.vscode/
+.idea/
+.idea
+*.swp
