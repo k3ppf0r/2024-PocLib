@@ -1,7 +1,7 @@
 id: TVE-2024-105082118
 
 info:
-  name: 用友NC系统网报down接口的sql注入漏洞
+  name: 用友NC系统网报down-bill接口的sql注入漏洞
   author: k3ppf0r
   severity: high
   description: |
