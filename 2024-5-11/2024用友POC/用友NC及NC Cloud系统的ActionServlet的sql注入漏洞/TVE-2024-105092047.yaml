@@ -18,7 +18,7 @@ info:
   metadata:
     date: 2024-04-23
     version: NC57/NC63/NC65/NCC1903/NCC1909/NCC2005
-    fofa-query: app="用友-UFIDA-NC" || app="用友-U8-Cloud"
+    fofa-query: app="用友-UFIDA-NC" || product="用友-NC-Cloud"
   tags: yonyou,sqli,1day,yonyounc,nc57,nc63,ncc,nc65,tve
 http:
   - raw:
