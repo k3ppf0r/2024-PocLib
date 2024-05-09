@@ -22,7 +22,7 @@ info:
     date: 2024-02-22
     version: 用友GRP-U8产品官方在售及提供服务的版本。
     fofa-query: app="用友-GRP-U8"
-  tags: yonyou,sqli
+  tags: yonyou,rce,grp,fileupload
 
 variables:
   file_name: "{{to_lower(rand_text_alpha(8))}}.jsp"
