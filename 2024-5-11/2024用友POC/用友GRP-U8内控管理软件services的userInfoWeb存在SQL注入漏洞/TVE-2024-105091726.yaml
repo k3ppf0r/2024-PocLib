@@ -26,6 +26,7 @@ info:
 http:
   - raw:
       - |-
+        @timeout: 10s
         POST /services/userInfoWeb HTTP/1.1
         Cache-Control: max-age=0
         Origin: null
@@ -37,8 +38,8 @@ http:
         Connection: close
         SOAPAction: 
         Content-Type: text/xml;charset=UTF-8
-        Host: 172.16.135.132:8009
-        Content-Length: 558
+        Host: {{Hostname}}
+        Content-Length: 565
 
         <soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.pt.midas.ufgov.com">
           <soapenv:Header/>
@@ -54,4 +55,5 @@ http:
         dsl:
           - status_code == 200
           - contains(body, "soapenv:Body")
+          - 'duration>=3'
         condition: and
