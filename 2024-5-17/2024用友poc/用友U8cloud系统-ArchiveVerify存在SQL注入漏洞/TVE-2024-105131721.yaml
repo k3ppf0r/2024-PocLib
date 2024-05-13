@@ -1,7 +1,7 @@
-id: TVE-2024-105131721
+id: TVE-2024-105131759
 
 info:
-  name: U8cloud系统ArchiveVerify接口存在SQL注入漏洞
+  name: 用友U8cloud所有版本TableInputOperServlet反序列化漏洞
   author: k3ppf0r
   severity: high
   description: |  
@@ -12,15 +12,15 @@ info:
   remediation: |
     升级补丁<U8CLOUD系统ArchiveVerify接口存在SQL注入漏洞的安全补丁>
   classification:
-    cve-id: TVE-2024-105131721
-    cvss-score: 7.8
-    cwe-id: CWE-89
+    cve-id: TVE-2024-105131759
+    cvss-score: 9.8
+    cwe-id: CWE-502
   metadata:
     date: 2023-12-08
     version: | 
       用友U8 cloud 2.0,2.1,2.3,2.5,2.6,2.65,2.7,3.0,3.1,3.2,3.5,3.6,5.0
     fofa-query: app="用友-U8-Cloud"
-  tags: yonyou,sqli,ncc,u8
+  tags: yonyou,u8c,rce
 
 
 http:
