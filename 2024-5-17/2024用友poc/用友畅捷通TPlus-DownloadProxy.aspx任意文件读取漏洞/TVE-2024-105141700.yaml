@@ -8,7 +8,7 @@ info:
   description: |
     T+是用友畅捷通推出的一款新型互联网企业管理系统，T+能够满足成长型小微企业对其灵活业务流程的管控需求，重点解决往来业务管理、订单跟踪、资金、库存等管理难题。用户可以通过各种固定或移动设备随时随地迅速获取企业实时、动态的运营信息。该系统DownloadProxy.aspx接口存在漏洞，会泄露系统的敏感信息。
   reference:
-    - https://www.cnblogs.com/pursue-security/p/17684714.html
+    - https://github.com/wy876/POC/blob/main/%E7%94%A8%E5%8F%8B%E7%95%85%E6%8D%B7%E9%80%9ATPlus-DownloadProxy.aspx%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%E6%BC%8F%E6%B4%9E.md
   remediation: |
     打对应补丁，重启服务
   classification:
