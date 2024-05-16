@@ -3,7 +3,7 @@ id: TVE-2024-105161430
 info:
   name: 大华智能物联综合管理平台log4j远程代码执行漏洞
   author: k3ppf0r
-  severity: high
+  severity: critical
   description: |  
     大华智慧园区综合管理平台/ipms/barpay/pay存在远程代码执行漏洞，允许未经授权的攻击者执行系统命令。
   reference:
