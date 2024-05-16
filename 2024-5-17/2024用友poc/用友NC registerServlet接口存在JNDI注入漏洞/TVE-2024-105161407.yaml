@@ -3,7 +3,7 @@ id: TVE-2024-105161407
 info:
   name: 用友NC系统registerServlet接口存在JNDI注入漏洞
   author: k3ppf0r
-  severity: high
+  severity: critical
   description: |  
     用友NC Cloud系统 PMCloudDriveProjectStateServlet.class接口处存在JNDI注入漏洞，未经身份验证的攻击者可通过此漏洞可以在服务端执行任意命令，获取服务器权限。
   reference:
@@ -12,7 +12,7 @@ info:
     等待官方升级补丁
   classification:
     cve-id: TVE-2024-105161407
-    cvss-score: 7.5
+    cvss-score: 9.5
     cwe-id: CWE-89
   metadata:
     date: 2024-05-11
