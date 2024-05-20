@@ -1,27 +1,25 @@
-id: sqli
+id: TVE-2024-105171730
 
 info:
-  name: sqli
+  name: 用友NC downTax-download SQL注入漏洞复现
   author: k3ppf0r
   severity: high
   description: |  
-    攻击者未经授权可以访问数据库中的数据，从而盗取用户数据，造成用户信息泄露。
-    攻击者通过利用SQL注入漏洞配合数据库xp_cmdshell可以执行任意命令,从而控制服务器。经过分析与研判，该漏洞利用难度低，建议尽快修复。
+    NC65系统可利用/portal/pt/downTax/download接口中的classid参数进行sql注入，从而窃取服务器的敏感信息。
   reference:
-    - 
+    - https://blog.csdn.net/qq_41904294/article/details/139004625
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: 
+    cve-id: TVE-2024-105171730
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:
-    date: 
-    version: 
-    fofa-query: 
-  tags: sqli
+    date: 2024-05-16
+    version: NC65
+    fofa-query: icon_hash="1085941792" || app="用友-UFIDA-NC"
+  tags: sqli,nc65,yonyou,nc,tve
 
-# python sqlmap.py -u "http://xxxx?id=1*" --sql-shell 
 
 
 http:
@@ -43,4 +41,3 @@ http:
           - 'duration>=3'
           - 'status_code == 200'
         condition: and
-
