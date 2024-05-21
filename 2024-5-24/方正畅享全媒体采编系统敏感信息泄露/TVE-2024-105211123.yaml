@@ -1,4 +1,4 @@
-id: TVE-2024-105211023
+id: TVE-2024-105211123
 
 info:
   name: 方正畅享全媒体采编系统敏感信息泄露
@@ -12,7 +12,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105211023
+    cve-id: TVE-2024-105211123
     cvss-score: 7.5
     cwe-id: CWE-552
   metadata:

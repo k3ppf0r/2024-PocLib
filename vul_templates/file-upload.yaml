@@ -62,3 +62,12 @@ http:
           - 'contains(body_2, "121")'
           - 'contains(body_2, "c4ca4238a0b923820dcc509a6f75849b")'
         condition: and
+
+    extractors:
+      - type: regex
+        part: body_1
+        name: url
+        internal: true
+        group: 1
+        regex:
+          - "(/files/upload/[^\"]*)"
