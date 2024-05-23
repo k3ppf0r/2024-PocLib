@@ -1,4 +1,4 @@
-id: TVE-2024-105211600
+id: TVE-2024-105221400
 
 info:
   name: 号卡集团分销管理系统 ue_serve.php 任意文件上传漏洞复现
@@ -11,7 +11,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105211600
+    cve-id: TVE-2024-105221400
     cvss-score: 9.5
     cwe-id: CWE-434
   metadata:

@@ -14,7 +14,8 @@
 - 包含热门管理系统厂商用友等
 - 所有poc已自测通过
 - 包含部分0day
-- vul_templates目录下存放通用模板
+- vul_templates目录下存放通用nuclei模板
+- help-scripts目录下存放辅助py脚本(如本地开启简易漏洞环境)
 
 
 
