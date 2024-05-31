@@ -32,8 +32,12 @@ http:
         ------WebKitFormBoundaryOKldnDPT
         Content-Disposition: form-data; name="tmp_name"; filename="test.php"
         Content-Type: image/png
+        
+        <?php print("test"); ?>
         ------WebKitFormBoundaryOKldnDPT
         Content-Disposition: form-data; name="uploadtime"
+        
+        
         ------WebKitFormBoundaryOKldnDPT--
 
 

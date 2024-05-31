@@ -34,6 +34,7 @@ http:
     matchers:
       - type: dsl
         dsl:
+          - 'status_code == 500'
           - 'contains(body, "SQLException")'
         condition: and
 
