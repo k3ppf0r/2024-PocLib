@@ -1,4 +1,4 @@
-id: TVE-2024-105311524
+id: TVE-2024-106021524
 
 info:
   name: 电信网关配置管理后台rewrite.php接口存在文件上传漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105311524
+    cve-id: TVE-2024-106021524
     cvss-score: 9.5
     cwe-id: CWE-434
   metadata:
