@@ -3,6 +3,7 @@
 *.txt
 *.tmp
 *.jpg
+*.csv
 
 self_test
 

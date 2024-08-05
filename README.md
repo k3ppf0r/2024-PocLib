@@ -8,24 +8,28 @@
 - 个人复现
 
 ## 项目特点
-- 精心编写，大多为国有软件相关漏洞,属于是 nuclei-templates 项目中没有的模板
-- 模板包含丰富的漏洞相关元信息
+- poc武器化, 开箱即用，所有poc已自测通过
+- 精心编写，大多为国有软件相关漏洞,包含热门管理系统厂商用友等, 绝大部分是 nuclei-templates 项目中没有的模板
 - 点到即止，测试链无害、无痕
-- 包含热门管理系统厂商用友等
-- 所有poc已自测通过
-- 包含部分0day
-- vul_templates目录下存放通用nuclei模板
+- nuclei_templates目录下存放通用nuclei模板
+- xray_templates目录下存放通用xray模板
 - help-scripts目录下存放辅助py脚本(如本地开启简易漏洞环境)
-
 
 
 ## 使用方法
 常用nuclei 使用命令：
 ```sh
 nuclei -t ./xx.yaml -v -u 192.168.136.130:8080
+# 批量
 cat target.txt | nuclei -t ./xx.yaml -v
 ```
 
+常用xray 使用命令：
+```sh
+.\xray_windows_amd64.exe ws --poc .\xxx.yml --url https://example.com 
+# 批量
+.\xray_windows_amd64.exe ws --poc .\xxx.yml --uf .\uf.txt
+```
 
 nuclei 自带模板测试：
 ```sh
