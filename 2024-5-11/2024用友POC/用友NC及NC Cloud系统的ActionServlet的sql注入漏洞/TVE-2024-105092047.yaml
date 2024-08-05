@@ -1,4 +1,4 @@
-id: TVE-2024-105092047
+id: 2024-105092047
 
 info:
   name: 用友NC及NC Cloud系统的ActionServlet的sql注入漏洞
@@ -12,14 +12,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105092047
+    cve-id: 2024-105092047
     cvss-score: 8
     cwe-id: CWE-89
   metadata:
     date: 2024-04-23
     version: NC57/NC63/NC65/NCC1903/NCC1909/NCC2005
     fofa-query: app="用友-UFIDA-NC" || product="用友-NC-Cloud"
-  tags: yonyou,sqli,1day,yonyounc,nc57,nc63,ncc,nc65,tve
+  tags: yonyou,sqli,1day,yonyounc,nc57,nc63,ncc,nc65
 http:
   - raw:
       - |

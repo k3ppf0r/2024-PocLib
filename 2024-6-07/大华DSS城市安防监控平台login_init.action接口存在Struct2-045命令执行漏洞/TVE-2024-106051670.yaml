@@ -1,4 +1,4 @@
-id: TVE-2024-106051670
+id: 2024-106051670
 
 info:
   name: 大华DSS城市安防监控平台login_init.action接口存在Struct2-045命令执行漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     等待官方升级补丁,重启修复
   classification:
-    cve-id: TVE-2024-106051670  
+    cve-id: 2024-106051670  
     cvss-score: 9.5
     cwe-id: CWE-94
   metadata: 
@@ -19,7 +19,7 @@ info:
     version: | 
       dahua-DSS
     fofa-query: app="dahua-DSS"
-  tags: rce,tve,dahua-DSS
+  tags: rce,dahua-DSS
 
 
 variables:

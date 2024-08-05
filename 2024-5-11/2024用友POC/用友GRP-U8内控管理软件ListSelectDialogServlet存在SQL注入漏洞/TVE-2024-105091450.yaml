@@ -1,4 +1,4 @@
-id: TVE-2024-105091450
+id: 2024-105091450
 
 info:
   name: 用友GRP-U8内控管理软件ListSelectDialogServlet存在SQL注入漏洞
@@ -12,7 +12,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105091450
+    cve-id: 2024-105091450
     cvss-score: 7.6
     cwe-id: CWE-89
   metadata:
@@ -20,7 +20,7 @@ info:
     version: |
       用友GRP-U8R10产品官方在售及提供服务的版本为U8Manager，产品分B、C、G三个产品系列，以上受到本次通报漏洞的影响。 为了尽快实现用户现场的产品升级，修复漏洞，避免造成损失，本次提供修复补丁，请广大服务厂商，尽快参照执行。
     fofa-query: app="用友-GRP-U8"
-  tags: yonyou,sqli,1day,yonyounc,ncu8,tve
+  tags: yonyou,sqli,1day,yonyounc,ncu8
 
 
 http:

@@ -1,4 +1,4 @@
-id: TVE-2024-105251620
+id: 2024-105251620
 
 info:
   name: RuvarOA协同办公平台 file_memo SQL注入漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     升级RuvarOA到高版本
   classification:
-    cve-id: TVE-2024-105251620
+    cve-id: 2024-105251620
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:
     date:  2024-05-11
     version: RuvarOA V6.01 、RuvarOA V12.01
     fofa-query: body="txt_admin_key"
-  tags: sqli,RuvarOA,tve,leak
+  tags: sqli,RuvarOA,leak
 
 # python sqlmap.py -u "http://xxxx?id=1*" --sql-shell 
 

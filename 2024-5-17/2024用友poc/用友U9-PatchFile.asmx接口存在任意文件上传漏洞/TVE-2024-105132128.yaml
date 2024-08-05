@@ -1,4 +1,4 @@
-id: TVE-2024-105132128
+id: 2024-105132128
 
 info:
   name: 用友U9-PatchFile.asmx接口存在任意文件上传漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     升级官方补丁
   classification:
-    cve-id: TVE-2024-105132128
+    cve-id: 2024-105132128
     cvss-score: 9.8
     cwe-id: CWE-434
   metadata:

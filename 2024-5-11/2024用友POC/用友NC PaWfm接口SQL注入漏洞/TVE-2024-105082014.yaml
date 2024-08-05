@@ -1,4 +1,4 @@
-id: TVE-2024-105082014
+id: 2024-105082014
 
 info:
   name: 用友NC系统PaWfm SQL注入漏洞
@@ -17,7 +17,7 @@ info:
     校验码：
     655d293131c51901327b99e530c54f27f90b58bd2a9ffabddbc1c6f39ea67ad2
   classification:
-    cve-id: TVE-2024-105081747
+    cve-id: 2024-105081747
     cvss-score: 6.5
     cwe-id: CWE-89
   metadata:

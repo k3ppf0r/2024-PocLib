@@ -1,4 +1,4 @@
-id: TVE-2024-105241410
+id: 2024-105241410
 
 info:
   name: 优卡特脸爱云一脸通智慧平台 UpLoadPic.ashx 任意文件上传漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105241410
+    cve-id: 2024-105241410
     cvss-score: 9.5
     cwe-id: CWE-434
   metadata:
     date: 2024-04-29
     version: 脸爱云
     fofa-query: title=="欢迎使用脸爱云 一脸通智慧管理平台"
-  tags: fileupload,rce,脸爱云,tve
+  tags: fileupload,rce,脸爱云
 
 
 variables:

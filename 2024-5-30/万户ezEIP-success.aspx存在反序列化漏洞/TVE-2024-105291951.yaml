@@ -1,4 +1,4 @@
-id: TVE-2024-105291951
+id: 2024-105291951
 
 info:
   name: 万户ezEIP-success.aspx存在反序列化漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105291951
+    cve-id: 2024-105291951
     cvss-score: 9.0
     cwe-id: CWE-502
   metadata:
     date: 2024-05-24
     version: 万户ezEIP
     fofa-query: app="万户网络-ezEIP"
-  tags: Deserialization,tve,万户ezEIP
+  tags: Deserialization,万户ezEIP
 
 
 http:

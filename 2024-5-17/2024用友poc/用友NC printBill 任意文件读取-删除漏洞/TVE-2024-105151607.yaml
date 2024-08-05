@@ -1,4 +1,4 @@
-id: TVE-2024-105151607
+id: 2024-105151607
 info:
   name: 用友NC printBill 任意文件读取-删除漏洞
   author: k3ppf0r
@@ -10,14 +10,14 @@ info:
   remediation: |
     用友安全中心已发布漏洞公告，请尽快前往下载更新补丁：https://security.yonyou.com/#/noticeInfo?id=546
   classification:
-    cve-id: TVE-2024-105151607
+    cve-id: 2024-105151607
     cvss-score: 8.1
     cwe-id: CWE-22, CWE-59
   metadata:
     date: 2024-05-13
     version: 用友NC
     fofa-query: app="用友-UFIDA-NC"
-  tags: yonyou,nc,lfi,afr,tve
+  tags: yonyou,nc,lfi,afr
 
 
 http:

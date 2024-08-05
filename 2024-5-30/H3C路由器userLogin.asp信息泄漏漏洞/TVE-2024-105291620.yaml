@@ -1,4 +1,4 @@
-id: TVE-2024-105291620
+id: 2024-105291620
 
 info:
   name: H3C路由器userLogin.asp信息泄漏漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105291620
+    cve-id: 2024-105291620
     cvss-score: 6.8
     cwe-id: CWE-200
   metadata:
     date: 2024-02-19
     version: H3C-Ent-Router
     fofa-query: app="H3C-Ent-Router"
-  tags: leak,h3c,tve
+  tags: leak,h3c
 
 http:
   - method: GET

@@ -1,4 +1,4 @@
-id: TVE-2024-105241115
+id: 2024-105241115
 
 info:
   name: pkpmbs 建设工程质量监督系统 Ajax_operaFile.aspx 文件读取漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105241115
+    cve-id: 2024-105241115
     cvss-score: 7.2
     cwe-id: CWE-29
   metadata:
     date: 2024-04-29
     version: pkpmbs
     fofa-query: icon_hash="2001627082"
-  tags: lfi,leak,tve,pkpmbs
+  tags: lfi,leak,pkpmbs
 
 
 http:

@@ -1,4 +1,4 @@
-id: TVE-2024-105082118
+id: 2024-105082118
 
 info:
   name: 用友NC系统网报down-bill接口的sql注入漏洞
@@ -17,14 +17,14 @@ info:
     校验码：
     e2fddcaa75eb3e5d15ca4a72700e55712aca9eaa32ca90ce3b2c85d3b3447958
   classification:
-    cve-id: TVE-2024-105082118
+    cve-id: 2024-105082118
     cvss-score: 7.7
     cwe-id: CWE-22
   metadata:
     date: 2024-04-28
     version: 用友NC65
     fofa-query: icon_hash="1085941792" && body="/logo/images/logo.gif"
-  tags: yonyou,sqli,1day,yonyounc,nc65,tve
+  tags: yonyou,sqli,1day,yonyounc,nc65
 
 
 http:

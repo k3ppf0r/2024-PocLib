@@ -1,4 +1,4 @@
-id: TVE-2024-105221050
+id: 2024-105221050
 
 info:
   name: SeaCMS海洋影视管理系统dmku存在SQL注入漏洞
@@ -12,7 +12,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105221050
+    cve-id: 2024-105221050
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:

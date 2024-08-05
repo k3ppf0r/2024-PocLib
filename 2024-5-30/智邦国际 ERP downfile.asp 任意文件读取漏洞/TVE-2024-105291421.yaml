@@ -1,4 +1,4 @@
-id: TVE-2024-105291421
+id: 2024-105291421
 
 info:
   name: 智邦国际 ERP downfile.asp 任意文件读取漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105291421
+    cve-id: 2024-105291421
     cvss-score: 7.5
     cwe-id: CWE-552
   metadata:

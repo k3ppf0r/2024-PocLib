@@ -1,4 +1,4 @@
-id: TVE-2024-106041530
+id: 2024-106041530
 
 info:
   name: 迈普 多业务融合网关 send_order.cgi 前台RCE漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-106041530
+    cve-id: 2024-106041530
     cvss-score: 9.8
     cwe-id: CWE-94
   metadata:
     date: 2024-06-03
     version: 迈普
     fofa-query: title=="迈普多业务融合网关"
-  tags: RCE,rce,tve,迈普
+  tags: RCE,rce,迈普
 
 
 http:

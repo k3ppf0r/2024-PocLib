@@ -1,4 +1,4 @@
-id: TVE-2024-105091150
+id: 2024-105091150
 
 info:
   name: U8cloud系统ExportUfoFormatAction接口存在SQL注入漏洞
@@ -12,7 +12,7 @@ info:
   remediation: |
     升级补丁<U8CLOUD系统ExportUfoFormatAction接口存在SQL注入漏洞的安全补丁>
   classification:
-    cve-id: TVE-2024-105091150
+    cve-id: 2024-105091150
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:

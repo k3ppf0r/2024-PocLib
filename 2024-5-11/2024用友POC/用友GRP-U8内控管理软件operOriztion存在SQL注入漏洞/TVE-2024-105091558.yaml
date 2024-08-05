@@ -1,4 +1,4 @@
-id: TVE-2024-105091558
+id: 2024-105091558
 
 info:
   name: 用友GRP-U8内控管理软件operOriztion存在SQL注入漏洞
@@ -12,7 +12,7 @@ info:
     该停服产品存在注入点的接口已于2020年废弃停用并发布更新补丁，请及时更新修复补丁。
     补丁名称：【20201127-operOriztion服务的sql注入的补丁修复包.rar】
   classification:
-    cve-id: TVE-2024-105091558
+    cve-id: 2024-105091558
     cvss-score: 7.6
     cwe-id: CWE-89
   metadata:
@@ -20,7 +20,7 @@ info:
     version: |
       已停服产品GRP-U8-R10受到本次通报漏洞的影响。
     fofa-query: app="用友-GRP-U8"
-  tags: yonyou,sqli,1day,yonyounc,ncu8,tve
+  tags: yonyou,sqli,1day,yonyounc,ncu8
 
 
 http:

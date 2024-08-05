@@ -1,4 +1,4 @@
-id: TVE-2024-105301530
+id: 2024-105301530
 
 info:
   name: 中成科信票务管理系统 ReserveTicketManagerPlane.ashx SQL注入漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105301530
+    cve-id: 2024-105301530
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:
     date: 2024-05-29
     version: 中成科信票务管理系统
     fofa-query: icon_hash="1632964065" || icon_hash="-2142050529"
-  tags: sqli,tve,中成科信票务管理系统
+  tags: sqli,中成科信票务管理系统
 
 
 

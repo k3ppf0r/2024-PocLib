@@ -1,4 +1,4 @@
-id: TVE-2024-105131759
+id: 2024-105131759
 
 info:
   name: 用友U8cloud所有版本TableInputOperServlet反序列化漏洞
@@ -12,7 +12,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105131759
+    cve-id: 2024-105131759
     cvss-score: 9.8
     cwe-id: CWE-502
   metadata:

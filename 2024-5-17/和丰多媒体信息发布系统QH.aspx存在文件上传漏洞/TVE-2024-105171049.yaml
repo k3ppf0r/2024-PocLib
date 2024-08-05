@@ -1,4 +1,4 @@
-id: TVE-2024-105171049
+id: 2024-105171049
 info:
   name: 和丰多媒体信息发布系统QH.aspx存在文件上传漏洞
   author: k3ppf0r
@@ -10,14 +10,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105171049
+    cve-id: 2024-105171049
     cvss-score: 9.8
     cwe-id: CWE-434
   metadata:
     date: 2024-05-01
     version: 和丰山海-数字标牌
     fofa-query: app="和丰山海-数字标牌"
-  tags: fileupload,rce,和丰山海-数字标牌,Digital Signage,tve
+  tags: fileupload,rce,和丰山海-数字标牌,Digital Signage
 
 # http://219.134.95.228:9101
 

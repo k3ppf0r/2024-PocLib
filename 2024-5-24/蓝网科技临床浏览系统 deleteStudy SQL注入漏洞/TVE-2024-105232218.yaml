@@ -1,4 +1,4 @@
-id: TVE-2024-105232218
+id: 2024-105232218
 
 info:
   name: 蓝网科技临床浏览系统 deleteStudy SQL注入漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105232218
+    cve-id: 2024-105232218
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:
     date:  2024-04-29
     version: 蓝网科技临床浏览系统
     fofa-query: app="LANWON-临床浏览系统"
-  tags: sqli,leak,tve,蓝网科技临床浏览系统
+  tags: sqli,leak,蓝网科技临床浏览系统
 
 # python sqlmap.py -u "http://xxxx?id=1*" --sql-shell 
 

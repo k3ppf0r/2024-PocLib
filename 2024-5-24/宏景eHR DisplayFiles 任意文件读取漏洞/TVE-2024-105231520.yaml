@@ -1,4 +1,4 @@
-id: TVE-2024-105231520
+id: 2024-105231520
 
 info:
   name: 宏景eHR DisplayFiles 任意文件读取漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105231520
+    cve-id: 2024-105231520
     cvss-score: 7.5
     cwe-id: CWE-552
   metadata:
     date:  2024-02-26
     version: 宏景eHR
     fofa-query: app="HJSOFT-HCM"
-  tags: lfi,leak,HJSOFT-HCM,tve
+  tags: lfi,leak,HJSOFT-HCM
 
 # ==================
 #    本地文件包含

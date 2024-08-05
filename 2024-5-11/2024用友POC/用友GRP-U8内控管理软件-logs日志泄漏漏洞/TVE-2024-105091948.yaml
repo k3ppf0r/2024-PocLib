@@ -1,4 +1,4 @@
-id: TVE-2024-105091948
+id: 2024-105091948
 
 info:
   name: 用友GRP-U8内控管理软件-logs日志泄漏漏洞
@@ -12,14 +12,14 @@ info:
   remediation: |
     启用中间件禁止访问功能，在服务路径webapps\WEB-INF下找到web.xml文件，增加如下截图中页签内容，禁止直接请求logs文件夹下文件。（注意web.xml请使用utf-8编码格式）。
   classification:
-    cve-id: TVE-2024-105091948
+    cve-id: 2024-105091948
     cvss-score: 7.1
     cwe-id: CWE-532
   metadata:
     date: 2023-12-29
     version: 用友GRP-U8R10产品官方在售及提供服务的版本为U8Manager，产品分B、C、G三个产品系列，以上受到本次通报漏洞的影响。
     fofa-query: app="用友-GRP-U8"
-  tags: yonyou,leak,1day,yonyounc,ncu8,tve
+  tags: yonyou,leak,1day,yonyounc,ncu8
 
 
 http:

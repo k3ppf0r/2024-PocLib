@@ -1,4 +1,4 @@
-id: TVE-2024-106021804
+id: 2024-106021804
 
 info:
   name: 致远M3 log 敏感信息泄露漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-106021804
+    cve-id: 2024-106021804
     cvss-score: 7.0
     cwe-id: CWE-200
   metadata:
     date: 2024-05-07
     version: 致远M3
     fofa-query: title="M3-Server"
-  tags: lfi,leak,log,tve
+  tags: lfi,leak,log
  
 requests:
   - raw:

@@ -1,4 +1,4 @@
-id: TVE-2024-105091430
+id: 2024-105091430
 
 info:
   name: 用友GRP-U8内控管理软件Proxy接口存在SQL注入漏洞
@@ -12,14 +12,14 @@ info:
   remediation: |
     需要首先更新U8Manager产品2023年7月份(或大于此日期）产品补丁，只更新本次安全补丁不能起到作用。
   classification:
-    cve-id: TVE-2024-105091430
+    cve-id: 2024-105091430
     cvss-score: 7.5
     cwe-id: CWE-89
   metadata:
     date: 2024-02-22
     version: 用友GRP-U8R10产品官方在售及提供服务的版本为U8Manager，产品分B、C、G三个产品系列，以上受到本次通报漏洞的影响。
     fofa-query: app="用友-GRP-U8"
-  tags: yonyou,sqli,1day,yonyounc,ncu8,tve
+  tags: yonyou,sqli,1day,yonyounc,ncu8
 
 
 http:

@@ -1,4 +1,4 @@
-id: TVE-2024-06051320
+id: 2024-06051320
 
 info:
   name: 泛微OA-E-cology8-SptmForPortalThumbnail.jsp任意文件读取漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     从官网获取最新版本或者补丁。官网链接：https://www.weaver.com.cn/
   classification:
-    cve-id: TVE-2024-06051320
+    cve-id: 2024-06051320
     cvss-score: 7.5
     cwe-id: CWE-552
   metadata:
     date: 2024-06-05
     version: 泛微OA-E-cology
     fofa-query: app="泛微-OA（e-cology）"
-  tags: lfi,leak,path,tve,E-cology
+  tags: lfi,leak,path,E-cology
 
 
 http:

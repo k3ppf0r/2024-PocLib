@@ -1,4 +1,4 @@
-id: TVE-2024-105161407
+id: 2024-105161407
 
 info:
   name: 用友NC系统registerServlet接口存在JNDI注入漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     等待官方升级补丁
   classification:
-    cve-id: TVE-2024-105161407
+    cve-id: 2024-105161407
     cvss-score: 9.5
     cwe-id: CWE-89
   metadata:
     date: 2024-05-11
     version: 用友NC65
     fofa-query: body="Client/Uclient/UClient.dmg"
-  tags: JNDIi,用友NC65,yonyou,nc65,tve
+  tags: JNDIi,用友NC65,yonyou,nc65
 
 
 http:

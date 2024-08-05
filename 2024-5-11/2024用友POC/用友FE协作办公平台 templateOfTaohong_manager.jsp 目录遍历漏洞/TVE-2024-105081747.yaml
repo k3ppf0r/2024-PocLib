@@ -1,4 +1,4 @@
-id: TVE-2024-105081747
+id: 2024-105081747
 
 info:
   name: 用友FE协作办公平台 templateOfTaohong_manager.jsp 目录遍历漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     建议您更新当前系统或软件至最新版，完成漏洞的修复。
   classification:
-    cve-id: TVE-2024-105081747
+    cve-id: 2024-105081747
     cvss-score: 8.2
     cwe-id: CWE-22
   metadata:
@@ -20,7 +20,7 @@ info:
     # max-request: 2
     # verified: true
     fofa-query: "FE协作"
-  tags: yonyou,oa,FE,bjx,tve
+  tags: yonyou,oa,FE,bjx
 
 requests:
   - method: GET

@@ -1,5 +1,5 @@
  
-id: TVE-2024-105141700
+id: 2024-105141700
  
 info:
   name: 用友畅捷通TPlus-DownloadProxy.aspx任意文件读取漏洞
@@ -12,7 +12,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105141700
+    cve-id: 2024-105141700
     cvss-score: 7.5
     cwe-id: CWE-552
   metadata:
@@ -22,7 +22,7 @@ info:
     version: 畅捷通 T+
     fofa-query: app="畅捷通-TPlus"
     hunter-query: app.name="畅捷通 T+"
-  tags: chanjet,rce,t+,yonyou,tve
+  tags: chanjet,rce,t+,yonyou
  
 http:
   - method: GET

@@ -1,4 +1,4 @@
-id: TVE-2024-105151717
+id: 2024-105151717
 
 info:
   name: 中移铁通禹路由器信息泄露漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     等待官方升级补丁
   classification:
-    cve-id: TVE-2024-105151717
+    cve-id: 2024-105151717
     cvss-score: 6.5
     cwe-id: CWE-200
   metadata:

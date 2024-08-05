@@ -1,4 +1,4 @@
-id: TVE-2024-105141035
+id: 2024-105141035
 info:
   name: 用友移动系统管理平台getFileLocal接口存在任意文件读取漏洞
   author: k3ppf0r
@@ -10,14 +10,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105141035
+    cve-id: 2024-105141035
     cvss-score: 7.7
     cwe-id: CWE-552
   metadata:
     date: 2024-01-22
     version: 用友移动系统
     fofa-query: app="用友-移动系统管理"
-  tags: lfi,rce,afr,tve
+  tags: lfi,rce,afr
 
 # 117.28.239.227:9080
 variables:

@@ -1,4 +1,4 @@
-id: TVE-2024-105091117
+id: 2024-105091117
 
 info:
   name: 用友GRP-U8内控管理软件UploadFileData存在任意文件上传漏洞
@@ -15,7 +15,7 @@ info:
     2、也可以升级2021年5月或者5月之后日期的R10补丁，也可修复此问题
     3、按照上述1或者2方案执行后，验证应该提示接口已停用，如截图，现场可根据此验证。
   classification:
-    cve-id: TVE-2024-105091117
+    cve-id: 2024-105091117
     cvss-score: 10.0
     cwe-id: CWE-434
   metadata:

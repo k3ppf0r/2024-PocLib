@@ -1,4 +1,4 @@
-id: TVE-2024-105131730
+id: 2024-105131730
 
 info:
   name: 用友U8cloud系统KeyWordDetailReportQuery和KeyWordReportQuery接口存在SQL注入漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     升级补丁<U8CLOUD系统KeyWordDetailReportQuery和KeyWordReportQuery接口存在SQL注入漏洞的安全补丁>
   classification:
-    cve-id: TVE-2024-105131730
+    cve-id: 2024-105131730
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:

@@ -1,4 +1,4 @@
-id: TVE-2024-105271400
+id: 2024-105271400
 
 info:
   name: 蓝海卓越计费管理系统 agent_setstate.php SQL注入漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105271400
+    cve-id: 2024-105271400
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:
     date:  2024-05-24
     version: 蓝海卓越计费管理系统
     fofa-query: body="txt_admin_key"
-  tags: sqli,tve,蓝海卓越计费管理系统
+  tags: sqli,蓝海卓越计费管理系统
 
 http:
   - raw:

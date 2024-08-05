@@ -1,4 +1,4 @@
-id: TVE-2024-105211431
+id: 2024-105211431
 
 info:
   name: 聚恒中台系统 data.ashx SQL注入致RCE漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105211431
+    cve-id: 2024-105211431
     cvss-score: 9.5
     cwe-id: CWE-89
   metadata:
     date: 2024-05-21
     version: 聚恒中台系统
     fofa-query: icon_hash="-2049533275" || icon_hash="-737808640" || icon_hash="-1557056363"
-  tags: sqli,rce,tve,聚恒中台系统
+  tags: sqli,rce,聚恒中台系统
 
 # python sqlmap.py -u "http://xxxx?id=1*" --sql-shell 
 

@@ -1,4 +1,4 @@
-id: TVE-2024-106021805
+id: 2024-106021805
 
 info:
   name: 致远OAV52019系统properties信息泄露漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-106021805
+    cve-id: 2024-106021805
     cvss-score: 7.0
     cwe-id: CWE-200
   metadata:

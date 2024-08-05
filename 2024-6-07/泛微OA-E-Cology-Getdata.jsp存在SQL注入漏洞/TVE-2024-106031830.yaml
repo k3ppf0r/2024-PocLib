@@ -1,4 +1,4 @@
-id: TVE-2024-106031830
+id: 2024-106031830
 
 info:
   name: 泛微OA-E-Cology-Getdata.jsp存在SQL注入漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     从官网获取最新版本或者补丁。官网链接：https://www.weaver.com.cn/
   classification:
-    cve-id: TVE-2024-106031830
+    cve-id: 2024-106031830
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:
     date: 2024-01-22
     version: 泛微OA-E-Cology
     fofa-query: app="泛微-OA（e-cology）"
-  tags: sqli,oa,E-Cology,tve
+  tags: sqli,oa,E-Cology
 
 
 http:

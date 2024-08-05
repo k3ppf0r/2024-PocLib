@@ -1,4 +1,4 @@
-id: TVE-2024-105082230
+id: 2024-105082230
 
 info:
   name: NC系统runStateServlet接口的sql注入漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105082230
+    cve-id: 2024-105082230
     cvss-score: 6.7
     cwe-id: CWE-89
   metadata:

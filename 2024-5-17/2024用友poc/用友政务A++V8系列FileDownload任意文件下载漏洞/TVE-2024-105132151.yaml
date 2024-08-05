@@ -1,4 +1,4 @@
-id: TVE-2024-105132151
+id: 2024-105132151
 
 info:
   name: 用友政务A++V8系列FileDownload任意文件下载漏洞
@@ -13,7 +13,7 @@ info:
     2、按版本获取已有的安全漏洞补丁，重启服务。
     3、请所有渠道总经理、技术支持部，联动向下传达到客户和沟通群。获取补丁地址：请到安全中心下载补丁。
   classification:
-    cve-id: TVE-2024-105132151
+    cve-id: 2024-105132151
     cvss-score: 7.2
     cwe-id: CWE-98
   metadata:

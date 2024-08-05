@@ -1,4 +1,4 @@
-id: TVE-2024-105071319 # 必填，TVE/CVE，TVE编号逻辑，TVE-年份-1（0表示0day，1表示非0day）月日时分，以poc撰写的时间为准。例：TVE-2024-104240909
+id: 2024-105071319 # 
 
 info:
   name: ZenTao PMS 项目管理系统身份认证绕过漏洞 # 必填，漏洞名
@@ -15,7 +15,7 @@ info:
   classification:
     # cvss-metrics: CVSS
     cvss-score: 8.1
-    cve-id: TVE-2024-105071319 
+    cve-id: 2024-105071319 
     cwe-id: CWE-287
     # cpe: # 可选：cpe:2.3:a:vmware:spring_cloud_function:*:*:*:*:*:*:*:*
   metadata:

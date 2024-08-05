@@ -7,7 +7,7 @@ directory = './path/to/your/directory'  # 替换为你的目录路径
 
 # 定义正则表达式来匹配特定的字符串模式
 pattern = re.compile(
-    r'Details: \*\*TVE-2024-105272020\*\* matched at (\d+\.\d+\.\d+\.\d+:\d+)'
+    r'Details: \*\*2024-105272020\*\* matched at (\d+\.\d+\.\d+\.\d+:\d+)'
 )
 
 # 定义API的URL（替换为你的API地址）

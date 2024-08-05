@@ -1,4 +1,4 @@
-id: TVE-2024-105251150
+id: 2024-105251150
 
 info:
   name: 智慧校园(安校易)管理系统 FileUpProductupdate.aspx 任意文件上传漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105251150
+    cve-id: 2024-105251150
     cvss-score: 9.5
     cwe-id: CWE-434
   metadata:
     date: 2024-05-24
     version: 安校易
     fofa-query: title="智慧综合管理平台登入"
-  tags: fileupload,rce,tve
+  tags: fileupload,rce
 
 http: 
   - raw:  

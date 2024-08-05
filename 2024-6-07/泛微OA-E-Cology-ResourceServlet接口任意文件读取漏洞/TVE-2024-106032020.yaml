@@ -1,4 +1,4 @@
-id: TVE-2024-106032020
+id: 2024-106032020
 
 info:
   name: 泛微OA-E-Cology-ResourceServlet接口任意文件读取漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-106032020
+    cve-id: 2024-106032020
     cvss-score: 7.5
     cwe-id: CWE-552
   metadata:

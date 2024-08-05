@@ -1,4 +1,4 @@
-id: TVE-2024-105241610
+id: 2024-105241610
 
 info:
   name: 联软安渡 UniNXG 安全数据交换系统 任意文件读取漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     打对应官方补丁，重启服务
   classification:
-    cve-id: TVE-2024-105241610
+    cve-id: 2024-105241610
     cvss-score: 7.5
     cwe-id: CWE-552
   metadata:

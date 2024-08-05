@@ -1,4 +1,4 @@
-id: TVE-2024-105082134
+id: 2024-105082134
 
 info:
   name: 用友NC workflowService接口的sql注入漏洞
@@ -16,7 +16,7 @@ info:
     校验码：
     496bc791bba04659c49aedf676733734088e3bed9596539c1d1ca670d4c0f8d4
   classification:
-    cve-id: TVE-2024-105082134
+    cve-id: 2024-105082134
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:

@@ -1,4 +1,4 @@
-id: TVE-2024-105222224
+id: 2024-105222224
 
 info:
   name: LVS精益价值管理系统 LVS.Web.ashx SQL注入漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105222224
+    cve-id: 2024-105222224
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:
     date:  2024-05-22 
     version: LVS精益价值管理系统
     fofa-query: body="/ajax/LVS.Core.Common.STSResult,LVS.Core.Common.ashx"
-  tags: sqli,LVS精益价值管理系统,tve
+  tags: sqli,LVS精益价值管理系统
 
 # python sqlmap.py -u "http://xxxx?id=1*" --sql-shell 
 

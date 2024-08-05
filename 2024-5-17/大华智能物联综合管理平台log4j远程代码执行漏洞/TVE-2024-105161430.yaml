@@ -1,4 +1,4 @@
-id: TVE-2024-105161430
+id: 2024-105161430
 
 info:
   name: 大华智能物联综合管理平台log4j远程代码执行漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     等待官方升级补丁,重启修复
   classification:
-    cve-id: TVE-2024-105161430
+    cve-id: 2024-105161430
     cvss-score: 9.5
     cwe-id: CWE-94
   metadata: 

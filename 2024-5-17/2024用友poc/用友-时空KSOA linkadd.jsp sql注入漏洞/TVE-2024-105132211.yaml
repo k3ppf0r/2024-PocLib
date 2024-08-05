@@ -1,4 +1,4 @@
-id: TVE-2024-105132211
+id: 2024-105132211
 
 info:
   name: 用友-时空KSOA linkadd.jsp sql注入漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105132211
+    cve-id: 2024-105132211
     cvss-score: 7.5
     cwe-id: CWE-89
   metadata:
     date: 2024-05-06
     version: NC KSOA 
     fofa-query: app="用友-时空KSOA"
-  tags: yonyou,sqli,1day,yonyounc,ksoa,tve
+  tags: yonyou,sqli,1day,yonyounc,ksoa
 
 
 http:

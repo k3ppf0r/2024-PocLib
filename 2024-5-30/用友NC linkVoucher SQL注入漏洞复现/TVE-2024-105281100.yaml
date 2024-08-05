@@ -1,4 +1,4 @@
-id: TVE-2024-105281100
+id: 2024-105281100
 
 info:
   name: 用友NC linkVoucher SQL注入漏洞
@@ -12,7 +12,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105281100
+    cve-id: 2024-105281100
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:

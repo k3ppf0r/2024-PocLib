@@ -1,4 +1,4 @@
-id: TVE-2024-105132120
+id: 2024-105132120
 
 info:
   name: 用友U8cloud系统MeasureQueryByToolAction接口存在SQL注入漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     升级补丁<U8CLOUD系统MeasureQueryByToolAction接口存在SQL注入漏洞的安全补丁>
   classification:
-    cve-id: TVE-2024-105132120
+    cve-id: 2024-105132120
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:

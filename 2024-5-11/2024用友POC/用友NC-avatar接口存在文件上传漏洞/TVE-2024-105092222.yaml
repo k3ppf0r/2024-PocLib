@@ -1,4 +1,4 @@
-id: TVE-2024-05092222
+id: 2024-05092222
 
 info:
   name: 用友NC-avatar接口存在文件上传漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     补官方补丁，重启修复
   classification:
-    cve-id: TVE-2024-05092222
+    cve-id: 2024-05092222
     cvss-score: 9.0
     cwe-id: CWE-434
   metadata:

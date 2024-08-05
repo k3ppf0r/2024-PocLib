@@ -1,4 +1,4 @@
-id: TVE-2024-105291424
+id: 2024-105291424
 
 info:
   name: JEPaaS 低代码平台 document-file 文件上传致RCE漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105291424
+    cve-id: 2024-105291424
     cvss-score: 9.5
     cwe-id: CWE-434
   metadata:
     date: 2024-05-29
     version: JEPaaS
     fofa-query: icon_hash="-999810473"
-  tags: fileupload,rce,tve
+  tags: fileupload,rce
 
 
 variables:

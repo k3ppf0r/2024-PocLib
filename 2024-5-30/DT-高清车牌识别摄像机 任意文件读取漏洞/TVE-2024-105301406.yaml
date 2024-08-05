@@ -1,4 +1,4 @@
-id: TVE-2024-105301406
+id: 2024-105301406
 
 info:
   name: DT-高清车牌识别摄像机 任意文件读取漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105301406
+    cve-id: 2024-105301406
     cvss-score: 7.5
     cwe-id: CWE-552
   metadata:
     date:  2024-05-30
     version: DT-高清车牌识别摄像机
     fofa-query: app="DT-高清车牌识别摄像机"
-  tags: lfi,leak,DT,高清车牌识别摄像机,tve
+  tags: lfi,leak,DT,高清车牌识别摄像机
 
 
 http:

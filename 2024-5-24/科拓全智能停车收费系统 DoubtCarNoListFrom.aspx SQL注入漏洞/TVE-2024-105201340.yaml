@@ -1,4 +1,4 @@
-id: TVE-2024-105201340
+id: 2024-105201340
 
 info:
   name: 科拓全智能停车收费系统 DoubtCarNoListFrom.aspx SQL注入漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105201340
+    cve-id: 2024-105201340
     cvss-score: 7.8
     cwe-id: CWE-89
   metadata:
     date: 2024-05-16
     version: 科拓全智能停车收费系统
     fofa-query: body="/KT_Css/qd_defaul.css"
-  tags: sqli,tve,KT,科拓全智能停车收费系统
+  tags: sqli,KT,科拓全智能停车收费系统
 
 # python sqlmap.py -u "http://xxxx?id=1*" --sql-shell 
 

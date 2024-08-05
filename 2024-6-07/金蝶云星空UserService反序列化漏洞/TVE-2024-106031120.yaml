@@ -1,4 +1,4 @@
-id: TVE-2024-106031120
+id: 2024-106031120
 
 info:
   name: 金蝶云星空UserService反序列化漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     目前厂商已发布升级补丁以修复漏洞，补丁获取链接：https://vip.kingdee.com/knowledge/specialDetail/352491453127123200?category=352491970117034240&id=388994085535220992&productLineId=1``https://vip.kingdee.com/article/390545756555520256?productLineId=1&isKnowledge=2
   classification:
-    cve-id: TVE-2024-106031120
+    cve-id: 2024-106031120
     cvss-score: 9.8
     cwe-id: CWE-502
   metadata:
@@ -21,7 +21,7 @@ info:
       7.0.352.16 <= 金蝶云星空 7.x <= 7.7.0.202111
       8.0.0.202205 <= 金蝶云星空 8.x <= 8.1.0.20221110
     fofa-query: body="HTML5/content/themes/kdcss.min.css"
-  tags: deserialization,tve
+  tags: deserialization
 
 variables:
   str: "{{rand_text_alpha(10)}}"

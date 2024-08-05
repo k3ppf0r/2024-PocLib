@@ -1,4 +1,4 @@
-id: TVE-2024-105271630
+id: 2024-105271630
 
 info:
   name: 福建科立讯通信 指挥调度管理平台 ajax_users.php SQL注入漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105271530
+    cve-id: 2024-105271530
     cvss-score: 7.5
     cwe-id: CWE-89
   metadata:

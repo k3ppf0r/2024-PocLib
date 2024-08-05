@@ -1,4 +1,4 @@
-id: TVE-2024-106052019
+id: 2024-106052019
 
 info:
   name: H3C-CVM-upload接口前台任意文件上传漏洞复现
@@ -11,14 +11,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-106052019
+    cve-id: 2024-106052019
     cvss-score: 9.5
     cwe-id: CWE-434
   metadata:
     date: 2024-06-05
     version: H3C-CVM
     fofa-query: app="H3C-CVM"
-  tags: fileupload,rce,tve
+  tags: fileupload,rce
 
 variables:
   file_name: "{{to_lower(rand_text_alpha(8))}}.jsp"

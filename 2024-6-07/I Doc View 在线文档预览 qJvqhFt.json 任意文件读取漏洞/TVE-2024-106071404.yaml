@@ -1,4 +1,4 @@
-id: TVE-2024-106071404
+id: 2024-106071404
 
 info:
   name: I Doc View 在线文档预览 qJvqhFt.json 任意文件读取漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     升级产品到最新版本
   classification:
-    cve-id: TVE-2024-106071404
+    cve-id: 2024-106071404
     cvss-score: 7.5
     cwe-id: CWE-552
   metadata:

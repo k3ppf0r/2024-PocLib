@@ -1,4 +1,4 @@
-id: TVE-2024-105311401
+id: 2024-105311401
 
 info:
   name: 海康威视综合安防管理平台 orgManage/v1/orgs/download 任意文件读取漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     打对应补丁，升级至安全版本
   classification:
-    cve-id: TVE-2024-105311401
+    cve-id: 2024-105311401
     cvss-score: 7.8
     cwe-id: CWE-552
   metadata:

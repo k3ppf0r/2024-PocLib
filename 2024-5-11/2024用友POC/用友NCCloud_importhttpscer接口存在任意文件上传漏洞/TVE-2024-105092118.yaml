@@ -1,4 +1,4 @@
-id: TVE-2024-105092118
+id: 2024-105092118
 
 info:
   name: 用友NCCloud_importhttpscer接口存在任意文件上传漏洞
@@ -12,7 +12,7 @@ info:
   remediation: |
     等待官方补丁,重启修复
   classification:
-    cve-id: TVE-2024-105092118
+    cve-id: 2024-105092118
     cvss-score: 10.0
     cwe-id: CWE-434
   metadata:

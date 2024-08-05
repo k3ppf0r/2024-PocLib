@@ -1,4 +1,4 @@
-id: TVE-2024-106031520
+id: 2024-106031520
 
 info:
   name: 泛微OA-E-Mobile移动管理平台lang2sql任意文件上传漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     从官网获取最新版本或者补丁。官网链接：https://www.weaver.com.cn/
   classification:
-    cve-id: TVE-2024-106031520
+    cve-id: 2024-106031520
     cvss-score: 9.5
     cwe-id: CWE-434
   metadata:

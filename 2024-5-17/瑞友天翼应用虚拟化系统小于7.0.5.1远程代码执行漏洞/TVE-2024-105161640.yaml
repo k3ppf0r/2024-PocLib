@@ -1,4 +1,4 @@
-id: TVE-2024-105161640
+id: 2024-105161640
 
 info:
   name: 瑞友天翼应用虚拟化系统<7.0.5.1远程代码执行漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     等待官方升级补丁,重启修复
   classification:
-    cve-id: TVE-2024-105161640
+    cve-id: 2024-105161640
     cvss-score: 9.5
     cwe-id: CWE-94
   metadata: 

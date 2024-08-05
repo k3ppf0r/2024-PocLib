@@ -1,4 +1,4 @@
-id: TVE-2024-105091630
+id: 2024-105091630
 
 info:
   name: 用友GRP-U8内控管理软件-sqcxIndex.jsp-SQL注入漏洞
@@ -11,7 +11,7 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105091630
+    cve-id: 2024-105091630
     cvss-score: 7.1
     cwe-id: CWE-89
   metadata:
@@ -19,7 +19,7 @@ info:
     version: |
       用友GRP-U8R10产品官方在售及提供服务的版本为U8Manager，产品分B、C、G三个产品系列，以上受到本次通报漏洞的影响。
     fofa-query: app="用友-GRP-U8"
-  tags: yonyou,sqli,1day,yonyounc,ncu8,tve
+  tags: yonyou,sqli,1day,yonyounc,ncu8
 
 http:
   - raw:

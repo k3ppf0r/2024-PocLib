@@ -1,4 +1,4 @@
-id: TVE-2024-105201530
+id: 2024-105201530
 
 info:
   name: 科拓全智能停车收费系统Webservice.asmx存在任意文件上传漏洞
@@ -11,14 +11,14 @@ info:
   remediation: |
     将科拓全智能停车收费系统升级至最新版本
   classification:
-    cve-id: TVE-2024-105201530
+    cve-id: 2024-105201530
     cvss-score: 9.5
     cwe-id: CWE-434
   metadata:
     date: 2024-05-17
     version: 科拓全智能停车收费系统
     fofa-query: body="/KT_Css/qd_defaul.css"
-  tags: fileupload,rce,tve,KT,科拓全智能停车收费系统
+  tags: fileupload,rce,KT,科拓全智能停车收费系统
 
 variables:
   file_name: "{{to_lower(rand_text_alpha(8))}}.aspx"

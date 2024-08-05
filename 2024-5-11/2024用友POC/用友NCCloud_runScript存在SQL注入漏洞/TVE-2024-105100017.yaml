@@ -1,4 +1,4 @@
-id: TVE-2024-105100017
+id: 2024-105100017
 
 info:
   name: 用友NCCloud系统runScript存在SQL注入漏洞
@@ -12,14 +12,14 @@ info:
   remediation: |
     打对应补丁，重启服务
   classification:
-    cve-id: TVE-2024-105100017
+    cve-id: 2024-105100017
     cvss-score: 7.1
     cwe-id: CWE-89
   metadata:
     date: 2024-03-28
     version: 用友NCCloud
     fofa-query: app="用友-NC-Cloud"
-  tags: yonyou,sqli,1day,yonyounc,ncc,tve
+  tags: yonyou,sqli,1day,yonyounc,ncc
 
 http:
   - raw:
