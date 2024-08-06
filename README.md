@@ -1,10 +1,141 @@
 # 2024-PocLib
 本项目主要目的是为供个人研究存档使用，也能为网络安全爱好者们提供一点参考资料，共勉
 
-## 漏洞汇总
-- 同享TXEHR V15人力管理管理平台strCardNo存在SQL注入漏洞
-- 契约锁电子签章平台 param-edits 远程代码执行漏洞
-- Apache OFBiz 授权不当致远程代码执行漏洞(CVE-2024-38856)
+## 漏洞汇总列表
+- 2024-8-xray
+  - Apache OFBiz 授权不当致远程代码执行漏洞(CVE-2024-38856)
+  - 同享TXEHR V15人力管理管理平台strCardNo存在SQL注入漏洞
+  - 契约锁电子签章平台 param-edits 远程代码执行漏洞
+
+- 2024-7-xray
+  - 3CX Phone SMC 任意文件读取漏洞
+  - 3C环境自动监测监控系统 ReadLog 任意文件读取漏洞
+  - Bazaar v1.4.3 任意文件读取漏洞
+  - ClusterControl v2 存在任意文件读取漏洞
+  - Jeecg-Boot loadTableData 远程代码执行漏洞
+  - LiveBOS UploadFile.do 任意文件上传漏洞
+  - Netgear WN604无线路由器 siteSurvey.php 存在未授权访问漏洞
+  - SpringBlade menu-list SQL注入漏洞
+  - 企望制造ERP系统 comboxstore 远程命令执行漏洞
+  - 华天动力OA downloadWpsFile.jsp 任意文件读取漏洞
+  - 华磊科技物流 getOrderTrackingNumberSQL注入漏洞
+  - 夏普Sharp 多功能打印机 Cookie泄露致登录绕过漏洞
+  - 夏普Sharp 多功能打印机 任意文件读取漏洞
+  - 天融信接入网关系统存在弱口令漏洞
+  - 天问物业ERP系统 OwnerVacantDownLoad 任意文件读取漏洞
+  - 天问物业ERP系统 ParkingFeelFileDownLoad 任意文件读取漏洞
+  - 天问物业ERP系统 VacantDiscountDownLoad 任意文件读取漏洞
+  - 泛微E-Mobile installOperate.do SSRF漏洞
+  - 海康威视-综合安防管理平台 keepAlive 存在 FastJson 反序列化
+  - 满客宝智慧食堂系统 selectUserByOrgId 未授权访问漏洞
+  - 瑞友天翼应用虚拟化系统 appsave SQL注入漏洞
+  - 用友时空KSOA PreviewKPQT SQL注入漏洞
+  - 百易云资产管理运营系统 comfileup.php 任意文件上传漏洞
+  - 科讯校园一卡通管理系统 dormitoryHealthRanking SQL注入漏洞
+  - 科讯校园一卡通管理系统 get_kq_tj_today SQL注入漏洞
+  - 管理易 FileUpload 任意文件上传漏洞
+  - 联软安渡 UniNXG 安全数据交换系统 任意文件读取漏洞
+  - 脸爱云一脸通智慧管理平台 downloads.aspx 信息泄露漏洞
+  - 致远OA 前台fileUpload.do绕过文件上传漏洞
+  - 金慧综合管理信息系统 LoginBegin.aspx SQL注入漏洞
+  - 银达汇智智慧综合管理平台ERP filehandle.aspx 任意文件读取漏洞
+
+- 2024-6-07
+  - H3C-CVM-upload接口前台任意文件上传漏洞复现
+  - I Doc View 在线文档预览 qJvqhFt.json 任意文件读取漏洞
+  - OrangeHRM-viewProjects接口存在SQL注入漏洞
+  - 大华DSS城市安防监控平台login_init.action接口存在Struct2-045命令执行漏洞
+  - 宏景eHR openFile.jsp 任意文件读取漏洞复现
+  - 智邦国际ERP-GetPersonalSealData.ashx存在SQL注入漏洞
+  - 泛微OA-E-Cology-Getdata.jsp存在SQL注入漏洞
+  - 泛微OA-E-Cology-ResourceServlet接口任意文件读取漏洞
+  - 泛微OA-E-cology8-SptmForPortalThumbnail.jsp任意文件读取漏洞
+  - 泛微OA-E-Mobile移动管理平台lang2sql任意文件上传漏洞
+  - 用友NC pagesServlet SQL注入致RCE漏洞
+  - 迈普 多业务融合网关 send_order.cgi 前台RCE漏洞
+  - 金蝶云星空UserService反序列化漏洞
+  - 锐捷校园网自助服务系统 login_judge.jsf 任意文件读取漏洞复现(XVE-2024-2116)
+
+- 2024-5-30
+  - DT-高清车牌识别摄像机 任意文件读取漏洞
+  - H3C路由器userLogin.asp信息泄漏漏洞
+  - JEPaaS 低代码平台 document-file 文件上传致RCE漏洞
+  - RuvarOA协同办公平台 多处 SQL注入漏洞
+  - SpringBlade tenant-list SQL 注入漏洞
+  - 万户ezEIP-success.aspx存在反序列化漏洞
+  - 中成科信票务管理系统 ReserveTicketManagerPlane.ashx SQL注入漏洞复现
+  - 智邦国际 ERP downfile.asp 任意文件读取漏洞
+  - 智邦国际ERP SQL注入漏洞
+  - 海康威视综合安防管理平台 orgManage-v1-orgs-download 任意文件读取漏洞
+  - 用友NC linkVoucher SQL注入漏洞复现
+  - 电信网关配置管理后台rewrite.php接口存在文件上传漏洞
+  - 福建科立讯通信 指挥调度管理平台 ajax_users.php SQL注入漏洞
+  - 致远M3 log 敏感信息泄露漏洞
+  - 致远OAV52019系统properties信息泄露漏洞
+
+- 2024-5-24
+  - Gradio component_server 任意文件读取漏洞复现(CVE-2024-1561)
+  - LVS精益价值管理系统 DownLoad.aspx 任意文件读取漏洞复现
+  - LVS精益价值管理系统 LVS.Web.ashx SQL注入漏洞复现
+  - pkpmbs 建设工程质量监督系统 Ajax_operaFile.aspx 文件读取漏洞
+  - SeaCMS海洋影视管理系统dmku存在SQL注入漏洞
+  - WAGO系统 远程代码执行漏洞
+  - WVP-GB28181摄像头管理平台 user 信息泄露漏洞
+  - 优卡特脸爱云一脸通智慧平台 UpLoadPic.ashx 文件上传致RCE漏洞
+  - 佳会视频会议attachment任意文件读取漏洞
+  - 六零导航页 file.php 任意文件上传漏洞复现（CVE-2024-34982）
+  - 号卡集团分销管理系统 ue_serve.php 任意文件上传漏洞复现
+  - 宏景eHR DisplayFiles 任意文件读取漏洞
+  - 宏景eHR OutputCode 任意文件读取漏洞复现
+  - 方正畅享全媒体新闻采编系统 binary.do SQL注入漏洞复现
+  - 方正畅享全媒体采编系统敏感信息泄露
+  - 智慧校园(安校易)管理系统 FileUpProductupdate.aspx 任意文件上传漏洞
+  - 泛微E-Mobile client.do 命令执行漏洞复现
+  - 用友CRM系统uploadfile.php接口存在任意文件上传漏洞
+  - 电信网关配置管理系统 rewrite.php 文件上传致RCE漏洞
+  - 短视频矩阵营销系统 poihuoqu 任意文件读取漏洞
+  - 科拓全智能停车收费系统 DoubtCarNoListFrom.aspx SQL注入漏洞
+  - 科拓全智能停车收费系统Webservice.asmx存在任意文件上传漏洞
+  - 联软安渡 UniNXG 安全数据交换系统 任意文件读取漏洞
+  - 聚恒中台系统 data.ashx SQL注入致RCE漏洞
+  - 蓝海卓越计费管理系统 agent_setstate.php SQL注入漏洞
+  - 蓝网科技临床浏览系统 deleteStudy SQL注入漏洞
+
+- 2024-5-17
+  - 2024用友poc
+  - AJ-Report数据大屏系统 verification 存在认证绕过导致远程命令执行漏洞
+  - EasyCVR 视频管理平台存在信息泄露漏洞
+  - 中移铁通禹路由器信息泄露漏洞
+  - 和丰多媒体信息发布系统QH.aspx存在文件上传漏洞
+  - 大华智能物联综合管理平台log4j远程代码执行漏洞
+  - 瑞友天翼应用虚拟化系统小于7.0.5.1远程代码执行漏洞
+  - 英飞达医学影像存档与通信系统 WebJobUpload 任意文件上传漏洞
+
+- 2024-5-11
+  - 2024用友POC
+  - kkFileView 任意文件上传致远程代码执行漏洞（国产）√
+  - Wordpress Bricks Builder 主题插件代码执行漏洞（CVE-2024-25600）
+  - WordPress WP-Recall 插件 = 16.26.5 - SQL 注入漏洞 (CVE-2024-32709) √
+  - ZenTao PMS 项目管理系统身份认证绕过漏洞2024-04-25√
+
+- 2024-4-30
+  - Apache Zeppelin shell 代码注入漏洞（CVE-2024-31861）√
+  - CVE-2023-22527 Confluence Data Center and Server 远程代码执行漏洞 √
+  - CVE-2023-49785 ChatGPT-Next-Web请求伪造漏洞  √
+  - CVE-2023-50292 Apache Solr Schema Designer  RCE √
+  - CVE-2023-50386 Apache Solr Backup 远程代码执行漏洞 √
+  - CVE-2023-7028 GitLab 任意用户密码重置漏洞 √
+  - CVE-2024-1709 ConnectWise ScreenConnect认证绕过漏洞 √
+  - CVE-2024-20931 Oracle WebLogic Server JNDI注入漏洞 √
+  - CVE-2024-21762 Fortinet FortiOS和FortiProxy 越界写入漏洞 √
+  - CVE-2024-21893 Ivanti Connect Secure SSRF to RCE漏洞 √
+  - CVE-2024-23334 AIOHTTP 目录遍历漏洞复现  √
+  - CVE-2024-23897 Jenkins任意文件读取导致远程代码执行漏洞 √
+  - CVE-2024-23917 TeamCity 权限绕过漏洞 √
+  - CVE-2024-27198 JetBrains TeamCity 身份验证绕过漏洞 √
+  - CVE-2024-4040-CrushFTP 认证绕过模板注入漏洞 √
+  - IP-guard WebServer 权限绕过漏洞复现(QVD-2024-14103) √
+
 
 ## poc来源
 - 各大威胁情报 
