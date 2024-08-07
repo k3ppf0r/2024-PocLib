@@ -6,6 +6,7 @@
   - Apache OFBiz 授权不当致远程代码执行漏洞(CVE-2024-38856)
   - 同享TXEHR V15人力管理管理平台strCardNo存在SQL注入漏洞
   - 契约锁电子签章平台 param-edits 远程代码执行漏洞
+  - 云时空社会化商业ERP系统 user-online 身份认证绕过漏洞
   - 金斗云 HKMP智慧商业软件 download 任意文件读取漏洞
 
 - 2024-7-xray
