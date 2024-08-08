@@ -5,11 +5,14 @@
 
 - 2024-8-xray
   - Apache OFBiz 授权不当致远程代码执行漏洞(CVE-2024-38856)
+  - Calibre任意文件读取漏洞
+  - H3C iMC智能管理中心 login.jsf反序列化导致RCE漏洞
   - Sonatype Nexus Repository 路径穿越漏洞（CVE-2024-4956）
   - 云时空社会化商业ERP系统 user-online 身份认证绕过漏洞
   - 同享TXEHR V15人力管理管理平台strCardNo存在SQL注入漏洞
   - 契约锁电子签章平台 param-edits 远程代码执行漏洞
   - 金斗云 HKMP智慧商业软件 download 任意文件读取漏洞
+  - 亿赛通电子文档安全管理系统 CDGAuthoriseTempletService1 SQL注入漏洞
 
 - 2024-7-xray
   - 3CX Phone SMC 任意文件读取漏洞
