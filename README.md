@@ -12,7 +12,6 @@
   - 同享TXEHR V15人力管理管理平台strCardNo存在SQL注入漏洞
   - 契约锁电子签章平台 param-edits 远程代码执行漏洞
   - 金斗云 HKMP智慧商业软件 download 任意文件读取漏洞
-  - 亿赛通电子文档安全管理系统 CDGAuthoriseTempletService1 SQL注入漏洞
 
 - 2024-7-xray
   - 3CX Phone SMC 任意文件读取漏洞
