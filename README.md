@@ -2,11 +2,13 @@
 本项目主要目的是为供个人研究存档使用，也能为网络安全爱好者们提供一点参考资料，共勉
 
 ## 漏洞汇总列表
+
 - 2024-8-xray
   - Apache OFBiz 授权不当致远程代码执行漏洞(CVE-2024-38856)
+  - Sonatype Nexus Repository 路径穿越漏洞（CVE-2024-4956）
+  - 云时空社会化商业ERP系统 user-online 身份认证绕过漏洞
   - 同享TXEHR V15人力管理管理平台strCardNo存在SQL注入漏洞
   - 契约锁电子签章平台 param-edits 远程代码执行漏洞
-  - 云时空社会化商业ERP系统 user-online 身份认证绕过漏洞
   - 金斗云 HKMP智慧商业软件 download 任意文件读取漏洞
 
 - 2024-7-xray
@@ -58,22 +60,72 @@
   - 金蝶云星空UserService反序列化漏洞
   - 锐捷校园网自助服务系统 login_judge.jsf 任意文件读取漏洞复现(XVE-2024-2116)
 
-- 2024-5-30
-  - DT-高清车牌识别摄像机 任意文件读取漏洞
-  - H3C路由器userLogin.asp信息泄漏漏洞
-  - JEPaaS 低代码平台 document-file 文件上传致RCE漏洞
-  - RuvarOA协同办公平台 多处 SQL注入漏洞
-  - SpringBlade tenant-list SQL 注入漏洞
-  - 万户ezEIP-success.aspx存在反序列化漏洞
-  - 中成科信票务管理系统 ReserveTicketManagerPlane.ashx SQL注入漏洞复现
-  - 智邦国际 ERP downfile.asp 任意文件读取漏洞
-  - 智邦国际ERP SQL注入漏洞
-  - 海康威视综合安防管理平台 orgManage-v1-orgs-download 任意文件读取漏洞
-  - 用友NC linkVoucher SQL注入漏洞复现
-  - 电信网关配置管理后台rewrite.php接口存在文件上传漏洞
-  - 福建科立讯通信 指挥调度管理平台 ajax_users.php SQL注入漏洞
-  - 致远M3 log 敏感信息泄露漏洞
-  - 致远OAV52019系统properties信息泄露漏洞
+- 2024-5-11
+  - 2024用友POC
+      - 用友FE协作办公平台 templateOfTaohong_manager.jsp 目录遍历漏洞
+      - 用友GRP A++Cloud 政府财务云的download接口任意文件读取
+      - 用友GRP-U8内控管理软件-logs日志泄漏漏洞
+      - 用友GRP-U8内控管理软件-obr_zdybxd_check.jsp存在SQL注入漏洞
+      - 用友GRP-U8内控管理软件-sqcxIndex.jsp-SQL注入漏洞
+      - 用友GRP-U8内控管理软件ListSelectDialogServlet存在SQL注入漏洞
+      - 用友GRP-U8内控管理软件operOriztion存在SQL注入漏洞
+      - 用友GRP-U8内控管理软件Proxy接口存在SQL注入漏洞
+      - 用友GRP-U8内控管理软件services的userInfoWeb存在SQL注入漏洞
+      - 用友GRP-U8内控管理软件ufgovbank 存在XML实体注入漏洞
+      - 用友GRP-U8内控管理软件UploadFileData存在任意文件上传漏洞
+      - 用友GRP-U8内控管理软件存在SQL（u8qx-slbmbygr.jsp）注入漏洞
+      - 用友NC mp-uploadControl存在文件上传漏洞
+      - 用友NC PaWfm2接口SQL注入漏洞 未完成
+      - 用友NC PaWfm接口SQL注入漏洞
+      - 用友NC saveDoc.ajax 存在任意文件上传漏洞
+      - 用友NC workflowService接口的sql注入漏洞
+      - 用友NC-avatar接口存在文件上传漏洞
+      - 用友NC-down-billSQL注入漏洞
+      - 用友NC-runStateServlet 接口sql注入漏洞
+      - 用友NCCloud_importhttpscer接口存在任意文件上传漏洞
+      - 用友NCCloud_runScript存在SQL注入漏洞
+      - 用友NC_saveImageServlet接口存在文件上传漏洞
+      - 用友NC及NC Cloud系统的ActionServlet的sql注入漏洞
+      - 用友NC及NC Cloud系统的wsncapplet.jsp信息泄漏漏洞
+      - 用友U8cloud系统ExportUfoFormatAction接口存在SQL注入漏洞
+  - kkFileView 任意文件上传致远程代码执行漏洞（国产）√
+  - Wordpress Bricks Builder 主题插件代码执行漏洞（CVE-2024-25600）
+  - WordPress WP-Recall 插件 = 16.26.5 - SQL 注入漏洞 (CVE-2024-32709) √
+  - ZenTao PMS 项目管理系统身份认证绕过漏洞2024-04-25√
+
+- 2024-5-17
+  - 2024用友poc
+      - test.py
+      - test.yaml
+      - 用友-时空KSOA linkadd.jsp sql注入漏洞
+      - 用友NC complainbilldetail SQL注入漏洞
+      - 用友NC downTax-download SQL注入漏洞复现
+      - 用友NC printBill 任意文件读取-删除漏洞
+      - 用友NC registerServlet接口存在JNDI注入漏洞
+      - 用友NC saveXmlToFIleServlet接口的任意文件上传漏洞
+      - 用友NC workflowImageServlet和importPml接口的sql注入漏洞
+      - 用友U8cloud所有版本RegisterServlet接口存在SQL注入漏洞
+      - 用友U8cloud所有版本TableInputOperServlet反序列化漏洞
+      - 用友U8cloud系统-ArchiveVerify存在SQL注入漏洞
+      - 用友U8cloud系统-base64-API接口存在SQL注入漏洞
+      - 用友U8cloud系统KeyWordDetailReportQuery和KeyWordReportQuery接口存在SQL注入漏洞
+      - 用友U8cloud系统MeasureQueryByToolAction接口存在SQL注入漏洞
+      - 用友u8crm-swfupload接口存在任意文件上传漏洞
+      - 用友U8CRM客户关系管理系统downloadfile.php存在任意文件读取漏洞
+      - 用友U9-PatchFile.asmx接口存在任意文件上传漏洞
+      - 用友U9-UMWebService.asmx存在任意文件读取漏洞
+      - 用友政务A++V8系列FileDownload任意文件下载漏洞
+      - 用友畅捷通T+ RRATableController,Ufida.T.DI.UIP.ashx 反序列化RCE漏洞
+      - 用友畅捷通TPlus-DownloadProxy.aspx任意文件读取漏洞
+      - 用友移动管理平台uploadIcon任意文件上传漏洞
+      - 用友移动系统管理平台getFileLocal接口存在任意文件读取漏洞
+  - AJ-Report数据大屏系统 verification 存在认证绕过导致远程命令执行漏洞
+  - EasyCVR 视频管理平台存在信息泄露漏洞
+  - 中移铁通禹路由器信息泄露漏洞
+  - 和丰多媒体信息发布系统QH.aspx存在文件上传漏洞
+  - 大华智能物联综合管理平台log4j远程代码执行漏洞
+  - 瑞友天翼应用虚拟化系统小于7.0.5.1远程代码执行漏洞
+  - 英飞达医学影像存档与通信系统 WebJobUpload 任意文件上传漏洞
 
 - 2024-5-24
   - Gradio component_server 任意文件读取漏洞复现(CVE-2024-1561)
@@ -103,22 +155,22 @@
   - 蓝海卓越计费管理系统 agent_setstate.php SQL注入漏洞
   - 蓝网科技临床浏览系统 deleteStudy SQL注入漏洞
 
-- 2024-5-17
-  - 2024用友poc
-  - AJ-Report数据大屏系统 verification 存在认证绕过导致远程命令执行漏洞
-  - EasyCVR 视频管理平台存在信息泄露漏洞
-  - 中移铁通禹路由器信息泄露漏洞
-  - 和丰多媒体信息发布系统QH.aspx存在文件上传漏洞
-  - 大华智能物联综合管理平台log4j远程代码执行漏洞
-  - 瑞友天翼应用虚拟化系统小于7.0.5.1远程代码执行漏洞
-  - 英飞达医学影像存档与通信系统 WebJobUpload 任意文件上传漏洞
-
-- 2024-5-11
-  - 2024用友POC
-  - kkFileView 任意文件上传致远程代码执行漏洞（国产）√
-  - Wordpress Bricks Builder 主题插件代码执行漏洞（CVE-2024-25600）
-  - WordPress WP-Recall 插件 = 16.26.5 - SQL 注入漏洞 (CVE-2024-32709) √
-  - ZenTao PMS 项目管理系统身份认证绕过漏洞2024-04-25√
+- 2024-5-30
+  - DT-高清车牌识别摄像机 任意文件读取漏洞
+  - H3C路由器userLogin.asp信息泄漏漏洞
+  - JEPaaS 低代码平台 document-file 文件上传致RCE漏洞
+  - RuvarOA协同办公平台 多处 SQL注入漏洞
+  - SpringBlade tenant-list SQL 注入漏洞
+  - 万户ezEIP-success.aspx存在反序列化漏洞
+  - 中成科信票务管理系统 ReserveTicketManagerPlane.ashx SQL注入漏洞复现
+  - 智邦国际 ERP downfile.asp 任意文件读取漏洞
+  - 智邦国际ERP SQL注入漏洞
+  - 海康威视综合安防管理平台 orgManage-v1-orgs-download 任意文件读取漏洞
+  - 用友NC linkVoucher SQL注入漏洞复现
+  - 电信网关配置管理后台rewrite.php接口存在文件上传漏洞
+  - 福建科立讯通信 指挥调度管理平台 ajax_users.php SQL注入漏洞
+  - 致远M3 log 敏感信息泄露漏洞
+  - 致远OAV52019系统properties信息泄露漏洞
 
 - 2024-4-30
   - Apache Zeppelin shell 代码注入漏洞（CVE-2024-31861）√
@@ -137,7 +189,6 @@
   - CVE-2024-27198 JetBrains TeamCity 身份验证绕过漏洞 √
   - CVE-2024-4040-CrushFTP 认证绕过模板注入漏洞 √
   - IP-guard WebServer 权限绕过漏洞复现(QVD-2024-14103) √
-
 
 ## poc来源
 - 各大威胁情报 
