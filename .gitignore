@@ -5,6 +5,7 @@
 *.jpg
 *.csv
 
+TMP
 self_test
 secret_*
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
