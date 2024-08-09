@@ -45,5 +45,5 @@ rules:
     expression: response.status == 200 && response.body_string.contains(string(s1 - s2)) && size(response.body_string) < 20
 expression: r0() || r1()
 detail:
-  author: secking
+  author: k3ppf0r
   links: []
