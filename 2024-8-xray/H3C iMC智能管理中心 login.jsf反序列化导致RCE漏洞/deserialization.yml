@@ -19,6 +19,9 @@ payloads:
     p3:
       value: |
         "selfservice/login.jsf"
+    p4:
+      value: |
+        "imc/dc3dtopo/dc2dtopo/autoDeploy.xhtml;.png"
 rules:
   r0:
     request:
