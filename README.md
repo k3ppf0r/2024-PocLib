@@ -5,20 +5,25 @@
 
 - 2024-8-xray
   - Apache OFBiz 授权不当致远程代码执行漏洞(CVE-2024-38856)
-  - 微厦在线学习平台 OrganSetup 任意文件上传漏洞
-  - 用友NC complainjudge SQL注入漏洞
+  - Calibre export任意文件读取漏洞
+  - CMSV6车辆监控平台系统中存在弱密码漏洞
+  - H3C iMC智能管理中心 多反序列化导致RCE漏洞
+  - secret_青铜器RDM研发管理平台 upload接口任意文件上传漏洞
+  - Sonatype Nexus Repository 路径穿越漏洞（CVE-2024-4956）
+  - 万户OA TeleConferenceService XXE漏洞
   - 云时空社会化商业ERP系统 user-online 身份认证绕过漏洞
   - 亿赛通电子文档安全管理系统 CDGAuthoriseTempletService1 SQL注入漏洞
-  - 安美数字酒店宽带运营系统 weather.php 任意文件读取漏洞
-  - Calibre export任意文件读取漏洞
-  - H3C iMC智能管理中心 多反序列化导致RCE漏洞
-  - CMSV6车辆监控平台系统中存在弱密码漏洞
-  - 契约锁电子签章平台 param-edits 远程代码执行漏洞
-  - 金斗云 HKMP智慧商业软件 queryPrintTemplate SQL注入漏洞
-  - 金斗云 HKMP智慧商业软件 download 任意文件读取漏洞
-  - 金和 OA GetSqlData.aspx rce漏洞
-  - Sonatype Nexus Repository 路径穿越漏洞（CVE-2024-4956）
   - 同享TXEHR V15人力管理管理平台strCardNo存在SQL注入漏洞
+  - 契约锁电子签章平台 param-edits 远程代码执行漏洞
+  - 安美数字酒店宽带运营系统 weather.php 任意文件读取漏洞
+  - 微厦在线学习平台 OrganSetup 任意文件上传漏洞
+  - 泛微 E-Office 10 schema_mysql 敏感信息泄露漏洞
+  - 用友NC complainjudge SQL注入漏洞
+  - 用友U8 Cloud BusinessRefAction SQL注入漏洞
+  - 金和 OA GetSqlData.aspx rce漏洞
+  - 金斗云 HKMP智慧商业软件 download 任意文件读取漏洞
+  - 金斗云HKMP智慧商业软件 queryPrintTemplate SQL注入漏洞
+  - 银达汇智智慧校园(安校易)管理系统 ReceiveClassVideo 任意文件上传漏洞
 
 - 2024-7-xray
   - 3CX Phone SMC 任意文件读取漏洞
